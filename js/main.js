@@ -20,6 +20,8 @@ deleteAll.addEventListener("click", function () {
   localStorage.removeItem("tasks");
   // remove elements from page
   tasksDiv.innerHTML = "";
+  // empty arrayOfTasks
+  arrayOfTasks = [];
 });
 
 submit.onclick = function () {
